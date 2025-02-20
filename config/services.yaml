@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Opctim\BrunoGeneratorBundle\:
+        resource: '../src/*'
+        exclude: '../src/{DependencyInjection,Event,Exception,Resources,Entity,Migrations}'

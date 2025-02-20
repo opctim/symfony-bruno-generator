@@ -1,0 +1,36 @@
+{
+  "name": "opctim/symfony-bruno-generator",
+  "description": "This bundle provides a simple command that will generate .bru files based on your registered routes using opctim/bruno-lang. Its usage is very similar to the commands of symfony/maker-bundle.",
+  "type": "symfony-bundle",
+  "keywords": ["bruno", "generator", "parser", "symfony", "maker", "maker-bundle"],
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "symfony/framework-bundle": "^5.4 || ^6.4 || ^7.0",
+    "symfony/console": "^5.4 || ^6.4 || ^7.0",
+    "opctim/bruno-lang": "^1.2",
+    "symfony/string": "^5.4 || ^6.4 || ^7.0",
+    "symfony/filesystem": "^5.4 || ^6.4 || ^7.0"
+  },
+  "authors": [
+    {
+      "name": "@opctim / Tim Nelles",
+      "email": "kontakt@timnelles.de",
+      "homepage": "https://github.com/opctim",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Opctim\\BrunoGeneratorBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Opctim\\BrunoGeneratorBundle\\Tests\\": "tests/src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  }
+}
