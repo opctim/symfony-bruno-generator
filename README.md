@@ -3,6 +3,8 @@
 This bundle provides a simple command that will generate .bru files based on your registered routes using `opctim/bruno-lang`.
 Its usage is very similar to the commands of `symfony/maker-bundle`.
 
+![demo.gif](docs/demo.gif)
+
 ## Requirements
 
 - PHP >= 8.1
